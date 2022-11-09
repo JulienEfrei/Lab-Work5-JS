@@ -1,0 +1,140 @@
+body{
+    background-color: #162530;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    justify-content: center;
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 30px;
+    margin: 0 auto;
+    list-style: none;
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: #00D072;
+    font-size: 1.5rem;
+    font-size: 50px;
+}
+
+a:hover{
+    border-bottom: #00D072 2px solid;
+}
+
+
+main{
+    background-color: #2A4057;
+    padding: 20px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    min-height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: rgb(169, 167, 167);
+}
+
+form{
+    background-color: #2A4057;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    background-color: #2A4057;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border-bottom: 2px solid #00D072;
+    color:rgb(169, 167, 167);
+    font-size: 18px;
+
+}
+
+input[type="button"]{
+    background-color: #00D072;
+    color: #fff;
+    font-size: xx-large;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    margin: 30px auto 0 auto;
+    width: 400px;
+}
+
+input[type="button"]:hover{
+    background-color: #00D072;
+    color: #fff;
+    font-size: xx-large;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+input[type="text"]{
+    background-color: #2A4057;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border-bottom: 2px solid #00D072;
+    color:rgb(169, 167, 167);
+    font-size: 18px;
+}
+
+input[type="reset"]{
+    background-color: #d00e00;
+    color: #fff;
+    font-size: xx-large;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    margin: 30px auto 0 auto;
+    width: 400px;
+}
+
+.radio{
+    display: flex;
+    flex-direction: row;   
+    align-items: center;
+    margin: 20px 30px;
+}
+
+.radio input{
+    margin: 0 10px;
+}
+
+
+
+.output{
+    background-color: #162530;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+

@@ -42,7 +42,7 @@ else{
             });
             var choice_type = document.getElementsByName('calculate');
             console.log(choice_type);
-    var choice = 'autoSum';
+    var choice;
     for(var i = 0; i < choice_type.length; i++){
         if(choice_type[i].checked){
             choice = choice_type[i].value;

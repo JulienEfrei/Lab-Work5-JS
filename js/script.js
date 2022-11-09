@@ -1,4 +1,4 @@
-if(document.location.pathname == "/index.html") {
+if(document.URL.includes("index.html")) {
 
     const forma = document.getElementById('index_sub');
     forma.addEventListener('click', userForm);
@@ -42,7 +42,7 @@ else{
             });
             var choice_type = document.getElementsByName('calculate');
             console.log(choice_type);
-    var choice;
+    var choice = 'autoSum;
     for(var i = 0; i < choice_type.length; i++){
         if(choice_type[i].checked){
             choice = choice_type[i].value;
